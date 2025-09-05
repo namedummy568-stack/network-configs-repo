@@ -1,0 +1,14 @@
+interfaces:
+  GigabitEthernet0/0:
+    ipv6_address: 2001:db8:0:1::1/64
+    ospfv3:
+      area: 0
+  GigabitEthernet0/1:
+    ipv6_address: 2001:db8:0:2::1/64
+    ospfv3:
+      area: 0
+ospfv3:
+  router_id: 1.1.1.1
+  areas:
+    0:
+      type: normal
